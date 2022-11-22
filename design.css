@@ -55,3 +55,33 @@ padding: 10px 12px;
 .flex-child:first-child {
   margin-right: 20px;
 } 
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 50px;
+  padding: 10px;
+}
+.grid-item {
+  background-color: #efe8f2;
+  border: 5px solid #28262d;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.grid-container-separate {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 50px;
+
+  padding: 10px;
+}
+.grid-item-separate {
+  row-gap: 100x;
+  background-color: #efe8f2;
+  border: 5px solid #28262d;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
