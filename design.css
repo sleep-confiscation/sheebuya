@@ -5,11 +5,11 @@ body {
 }
 
 .topnav {
-overflow: hidden;
+overflow: auto;
 background-color: #28262d;
 border-radius: 20px;
 top: 0; 
-margin-bottom: 50px;
+margin-bottom: 40px;
 }
 
 .logo { 
