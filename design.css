@@ -47,6 +47,9 @@ padding: 10px 12px;
   display: flex;
   background-color: #efe8f2;
   color: #28262d;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .flex-item {
