@@ -10,6 +10,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
 <link rel="stylesheet" href="design.css">
 <style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
     .flex-item-split{
     width: 50%
@@ -27,6 +33,13 @@ h1
   font-size: 20px;
   font-weight: bold;
 }
+.grid-container2 {
+
+display: grid;
+grid-template-columns: auto auto;
+column-gap: 50px;
+padding: 10px;
+}
 
 
 
@@ -38,7 +51,6 @@ h1
         <img class="logo" src="images/banner1.png" alt="logo">
         <a href="contact.html">Contact</a>
         <a class="active" href="commissions.html">Commissions</a>
-        <a href="gallery.html">Gallery</a>
       </div>
 
 
@@ -46,18 +58,44 @@ h1
         <div class="flex-item">
             <h1 style="font-size:40px; text-align: center; color: #28262d;">Terms and Conditions</h1>
             <p>Please be sure to completely read. I will assume as such.</p>
+            <ol>
+                <li>Payment is accepted through PayPal, Venmo, CashApp, and KoFi.</li>
+                <li>Full payment will be accepted right after the first sketch is sent. Proof of payment must be sent. (Tips are very much accepted!)</li>
+                <li>I have the right to refuse any commission at any point, and a refund will be issued.</li>
+                <li>Art may not be used for commercial purposes without my explicit permission. Please discuss with me if you wish to have something created for commercial use.</li>
+                <li>By buying a commission, you give the right for the art to be used in my portfolio. I will ask whether or not you are okay with me posting online.</li>
+                <li>All finished pieces will be sent in .png, .jpeg, and .pdf formats.</li>
+                <li>After a final sketch is sent, refunds will no longer be accepted. If a piece is not completed in the given timeframe, this doesn't apply.</li>
+                <li>Reference images (moodboards and image boards work) and/or color palettes must be provided to aid in the process.</li>
+                <li>Revisions must be asked for before the commission is completed. I will send frequent progress photos, so please don't be afraid to point out anything.</li>
+                <li>If posting the art anywhere, be sure to give explicit credit. Do not crop out or edit out the watermark.</li>
+            </ol>
         </div>
       </div>
     <div class="flex-container">
-        <div class="flex-item-split" style="border: 5px solid #28262d;"> <p>Will Do</p></div>
-        <div class="flex-item-split" style="border: 5px solid #28262d;"> <p>Will Not Do</p></div>
+        <div class="flex-item-split" style="border: 5px solid #28262d;"> <p style="font-size: 30px">Can Do</p>
+            <ul>
+                <li>Original Characters/Fan Characters</li>
+                <li>Fan Art</li>
+                <li>Stylized humans, animals, and whatever falls in-between</li>
+                <li>Simple Backgrounds</li>
+                <li>Gore</li>
+              </ul></div>
+        <div class="flex-item-split" style="border: 5px solid #28262d;"> <p style="font-size: 30px">Can Not Do</p>
+        <ul>
+            <li>Provocative material</li>
+            <li>Full realism</li>
+            <li>Content promoting hate towards any group</li>
+            <li>Mecha</li>
+            <li>Illegal Content</li>
+        </ul></div>
       </div>
 
 <h1>Headshot/Profile Picture</h1>
         <div class="grid-container">
-            <div class="grid-item" style="background-color: #6e5e75">1</div>
-            <div class="grid-item" style="background-color: #6e5e75">2</div>
-            <div class="grid-item" style="background-color: #6e5e75">3</div>
+            <div class="grid-item" style="background-color: #6e5e75"><img src="images/kamikat.png" alt="kami"></div>
+            <div class="grid-item" style="background-color: #6e5e75"><img src="images/Juniper.png" alt="juniper"></div>
+            <div class="grid-item" style="background-color: #6e5e75"><img src="images/sheegfb.png" alt="sheeb"></div>
             <div class="grid-item"><p>Lineart</p>
                 <p>10$</p>
                 <p>+2$ for grayscale coloring</p></div>
@@ -72,9 +110,9 @@ h1
 
 <h1>Halfbody</h1>
       <div class="grid-container">
-        <div class="grid-item" style="background-color: #6e5e75">1</div>
-        <div class="grid-item" style="background-color: #6e5e75">2</div>
-        <div class="grid-item" style="background-color: #6e5e75">3</div>
+        <div class="grid-item" style="background-color: #6e5e75"><img src="images/kami5.png"></div>
+        <div class="grid-item" style="background-color: #6e5e75"><img src="images/kami4.png"></div>
+        <div class="grid-item" style="background-color: #6e5e75"><img src="images/archives.png"></div>
         <div class="grid-item"><p>Lineart</p>
             <p>15$</p>
             <p>+2$ for grayscale coloring</p></div>
@@ -88,9 +126,9 @@ h1
       </div>
 <h1>Fullbody</h1>
 <div class="grid-container">
-    <div class="grid-item" style="background-color: #6e5e75">1</div>
-    <div class="grid-item" style="background-color: #6e5e75">2</div>
-    <div class="grid-item" style="background-color: #6e5e75">3</div>
+    <div class="grid-item" style="background-color: #6e5e75"><img src="images/meow3.png"></div>
+    <div class="grid-item" style="background-color: #6e5e75"><img src="images/meow2.png"></div>
+    <div class="grid-item" style="background-color: #6e5e75"><img src="images/meow.png"></div>
     <div class="grid-item"><p>Lineart</p>
         <p>30$</p>
         <p>+2$ for grayscale coloring</p></div>
@@ -100,15 +138,15 @@ h1
         <p>Price may be upped depending on the detail</p></div>
     <div class="grid-item"><p>Fully Rendered</p>
     <p>40$</p>
+    <p>+5 for full background (upped depending on complexity)</p>
 <p>Price may be upped depending on the detail</p></div>
   </div>
 
 
 <h1>Sketch Sheet</h1>
-    <div class="grid-container">
-    <div class="grid-item" style="background-color: #6e5e75">1</div>
-    <div class="grid-item" style="background-color: #6e5e75">2</div>
-    <div class="grid-item" style="background-color: #6e5e75">3</div>
+    <div class="grid-container2">
+    <div class="grid-item" style="background-color: #6e5e75"><img src="images/midgey2.png"></div>
+    <div class="grid-item" style="background-color: #6e5e75"><img src="images/midgey.png"></div>
     <div class="grid-item"><p>Lineart</p>
         <p>35$</p>
         <p>+2$ for grayscale coloring</p></div>
@@ -116,9 +154,7 @@ h1
         <p>40$</p>
         <p>+2$ for shading</p>
         <p>Price may be upped depending on the detail</p></div>
-    <div class="grid-item"><p>Fully Rendered</p>
-    <p>45$</p>
-<p>Price may be upped depending on the detail</p></div>
   </div>
+  
 </body>
 </html>
